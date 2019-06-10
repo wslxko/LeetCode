@@ -8,11 +8,15 @@
 
 
 def sumTwo(List, target):
+    targetList = []
     for i in List:
         for j in List:
             if i + j == target:
-                return List.index(i), List.index(j)
+                value = List.index(i), List.index(j)
+                targetList.append(value)
+
+    return targetList
 
 
-a = [4, 10, 43]
+a = [4, 10, 43, 37, 20, 27]
 print(sumTwo(a, 47))
