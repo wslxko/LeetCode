@@ -11,7 +11,7 @@ def sumTwo(List, target):
     for i in List:
         for j in List:
             if i + j == target:
-                return List.index(i) + 1, List.index(j) + 1
+                return List.index(i), List.index(j)
 
 
 a = [4, 10, 43]
