@@ -6,7 +6,7 @@
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。'''
 
 
-#不是原地
+# 不是原地
 def ArrayToHeavy(List):
     new_list = []
     for i in List:
@@ -15,11 +15,12 @@ def ArrayToHeavy(List):
     return new_list
 
 
-#原地
+# 原地
 def ArrayToHeavy1(List):
-    new_List = list(set(List))
-    new_List.sort(key=List.index)
-    return new_List
+    new_list = list(set(List))
+    new_list.sort(key=List.index)
+    return new_list
+
 
 a = ['1', '2', '4', '3', '1', '4', '2', '5', '6', '4', '5', '7', '1']
 

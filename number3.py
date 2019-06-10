@@ -14,13 +14,11 @@
 
 
 def removeElements(List, value):
-    a = List.count(value)
-    for i in range(a):
+    counts = List.count(value)
+    for i in range(counts):
         List.remove(value)
     return List
 
 
-nums = [0, 1, 2, 2, 3, 0, 2, 3, 3, 4, 5, 6, 7, 2, 1, 3, 5, 6, 4, 2]
-value = 2
-
-print(removeElements(nums, value))
+nums = [1, 2, 3, 4, 3, 2, 3, 6, 5, 6, 3, 3, 4, 5, 6, 2, 4, 5345, 6, 56, 3, 5]
+print(removeElements(nums, 3))
