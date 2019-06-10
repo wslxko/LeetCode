@@ -4,4 +4,21 @@
 你可以假设数组中无重复元素。
 '''
 
-def
+
+def findIndex(nums, target):
+    for i in range(len(nums)):
+        if nums[i] == target:
+            return i
+        elif target not in nums:
+            nums.append(target)
+            return nums
+        else:
+            pass
+
+
+nums = [1, 2, 3, 4, 5, 6]
+num1 = 4
+num2 = 7
+
+print(findIndex(nums, num1))
+print(findIndex(nums, num2))
