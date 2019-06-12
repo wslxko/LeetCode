@@ -20,3 +20,16 @@
 链接：https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 '''
+
+
+def rotating(nums, num):
+    need_move = nums[0:num]
+    for i in need_move:
+        nums.remove(i)
+        nums.append(i)
+    nums.sort()
+    return nums[0]
+
+
+nums = [4, 5, 6, 7, 0, 1, 2]
+print(rotating(nums, 5))
