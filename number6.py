@@ -26,11 +26,13 @@
 
 class Solution:
     def removeDuplicates(self, nums):
-        new_nums = list(set(nums))
-        return len(new_nums)
+        nums = list(set(nums))
+        return len(nums), nums
 
 
 if __name__ == '__main__':
-    nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+    nums1 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+    nums2 = [1, 1, 2]
     a = Solution()
-    print(a.removeDuplicates(nums))
+    print(a.removeDuplicates(nums1))
+    print(a.removeDuplicates(nums2))
