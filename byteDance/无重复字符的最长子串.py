@@ -19,20 +19,20 @@
 请注意，你的答案必须是 子串 的长度，"wke" 是一个子序列，不是子串。
 '''
 
-
+# 因为使用的循环，所以导致时间方面消耗非常大，暂时只会这一招
 class Solution:
     def lengthOfLongestSubstring(self, s):
         lists = list(s)
         listsSet = list(set(lists))
         if len(lists) > 0:
             if lists == listsSet:
-                return s
+                return len(lists)
         elif len(lists) == 0:
             return 0
 
         a = []
         for i in range(len(lists)):
-            for j in range(i + 1, len(lists)):
+            for j in range(i, len(lists) + 1):
                 list2 = lists[i:j]
                 list2set = list(set(list2))
                 list2set.sort(key=list2.index)
@@ -45,4 +45,4 @@ class Solution:
 
 if __name__ == "__main__":
     a = Solution()
-    print(a.lengthOfLongestSubstring(' '))
+    print(a.lengthOfLongestSubstring("sdofksokp"))
