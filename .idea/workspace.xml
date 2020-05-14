@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a63ff27-c4bd-424b-b035-cb397c919760" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/byteDance/无重复字符的最长子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/byteDance/无重复字符的最长子串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byteDance/最长公共前缀.py" beforeDir="false" afterPath="$PROJECT_DIR$/byteDance/最长公共前缀.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$number33.coverage" NAME="number33跳跃游戏 Coverage Results" MODIFIED="1578984600839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tencentSelect" />
     <SUITE FILE_PATH="coverage/LeetCode$number25.coverage" NAME="number25螺旋矩阵 Coverage Results" MODIFIED="1577948073905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tencentSelect" />
     <SUITE FILE_PATH="coverage/LeetCode$number28.coverage" NAME="number28下一个排列 Coverage Results" MODIFIED="1578022155728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tencentSelect" />
-    <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="无重复字符的最长子串 Coverage Results" MODIFIED="1589364499616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/byteDance" />
+    <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="最长公共前缀 Coverage Results" MODIFIED="1589425871287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/byteDance" />
     <SUITE FILE_PATH="coverage/LeetCode$number19.coverage" NAME="number19 Coverage Results" MODIFIED="1577700124562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tencentSelect" />
     <SUITE FILE_PATH="coverage/LeetCode$number2.coverage" NAME="number2 Coverage Results" MODIFIED="1561451272595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
     <SUITE FILE_PATH="coverage/LeetCode$number36II.coverage" NAME="number36求众数II Coverage Results" MODIFIED="1579093209734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tencentSelect" />
@@ -59,15 +59,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tencentSelect/number30在排序数组中查找元素的第一个和最后一个位置.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tencentSelect/number31组合总和.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,20 +122,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/byteDance/无重复字符的最长子串.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="16">
               <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/byteDance/最长公共前缀.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="447">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -169,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/number3.py" />
         <option value="$PROJECT_DIR$/number4.py" />
         <option value="$PROJECT_DIR$/../maopao.py" />
         <option value="$PROJECT_DIR$/number5.py" />
@@ -218,8 +208,9 @@
         <option value="$PROJECT_DIR$/tencentSelect/number35子集II.py" />
         <option value="$PROJECT_DIR$/tencentSelect/number36组合总和III.py" />
         <option value="$PROJECT_DIR$/tencentSelect/number36求众数II.py" />
-        <option value="$PROJECT_DIR$/byteDance/最长公共前缀.py" />
         <option value="$PROJECT_DIR$/byteDance/无重复字符的最长子串.py" />
+        <option value="$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi" />
+        <option value="$PROJECT_DIR$/byteDance/最长公共前缀.py" />
       </list>
     </option>
   </component>
@@ -277,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.无重复字符的最长子串">
+  <component name="RunManager" selected="Python.最长公共前缀">
     <configuration name="无重复字符的最长子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="number33跳跃游戏" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="最长公共前缀" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,12 +299,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tencentSelect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/byteDance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tencentSelect/number33跳跃游戏.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/byteDance/最长公共前缀.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -412,11 +403,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.最长公共前缀" />
         <item itemvalue="Python.无重复字符的最长子串" />
         <item itemvalue="Python.number36求众数II" />
         <item itemvalue="Python.number35删除排序数组中的重复项II" />
         <item itemvalue="Python.number34子集" />
-        <item itemvalue="Python.number33跳跃游戏" />
       </list>
     </recent_temporary>
   </component>
@@ -464,12 +455,12 @@
       <workItem from="1578918147188" duration="172000" />
       <workItem from="1578965570392" duration="2544000" />
       <workItem from="1579052159021" duration="1976000" />
-      <workItem from="1589351115788" duration="6643000" />
+      <workItem from="1589351115788" duration="9079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137823000" />
+    <option name="totallyTimeSpent" value="140259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -577,16 +568,6 @@
           <line>29</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/byteDance/无重复字符的最长子串.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/byteDance/无重复字符的最长子串.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -598,13 +579,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tencentSelect/number5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tencentSelect/number6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -914,17 +888,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byteDance/最长公共前缀.py">
+    <entry file="file://$PROJECT_DIR$/byteDance/无重复字符的最长子串.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="16">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byteDance/无重复字符的最长子串.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="171">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byteDance/最长公共前缀.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
         </state>
       </provider>
     </entry>

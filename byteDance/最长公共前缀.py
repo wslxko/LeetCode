@@ -20,3 +20,33 @@
 
 class Solution:
     def longestCommonPrefix(self, strs):
+        if len(strs) > 0:
+            sortStrs = sorted(strs, reverse=False, key=len)
+            minLen = len(sortStrs[0])
+            commonStr = sortStrs[0]
+            sortStrs.remove(sortStrs[0])
+            commonList = []
+            for index in range(minLen):
+                common = commonStr[:index + 1]
+                for index1 in range(len(sortStrs)):
+                    if sortStrs[index1].startswith(common):
+                        commonList.append(common)
+                if commonList.count(common) > 1:
+                    commonList = list(set(commonList))
+                else:
+                    if common in commonList:
+                        commonList.remove(common)
+            commonList.sort(reverse=True, key=len)
+
+            if len(commonList) > 0:
+                return commonList[0]
+            else:
+                return " "
+        else:
+            return " "
+
+
+if __name__ == "__main__":
+    a = Solution()
+    l = ["flower", "flow", "flight"]
+    print(a.longestCommonPrefix(l))
