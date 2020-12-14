@@ -34,10 +34,6 @@ candidates 中的数字可以无限制重复被选取。
 import itertools
 
 
-
-
-
-
 class Solution:
     def combinationSum(self, candidates, target):
         cls = []
