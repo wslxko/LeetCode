@@ -31,7 +31,7 @@ candidates 中的数字可以无限制重复被选取。
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
 
-import itertools0
+import itertools
 
 
 class Solution:
